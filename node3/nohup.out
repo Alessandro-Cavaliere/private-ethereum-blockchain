@@ -1,0 +1,193 @@
+INFO [01-27|17:26:08.519] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [01-27|17:26:08.521] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+WARN [01-27|17:26:08.521] Option nousb is deprecated and USB is deactivated by default. Use --usb to enable 
+WARN [01-27|17:26:08.552] The generic --miner.gastarget flag is deprecated and will be removed in the future! 
+INFO [01-27|17:26:08.553] Set global gas cap                       cap=50,000,000
+WARN [01-27|17:26:08.555] Sanitizing invalid miner gas price       provided=0 updated=1,000,000,000
+INFO [01-27|17:26:08.556] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [01-27|17:26:08.556] Allocated cache and file handles         database=/mnt/c/Users/alexc/OneDrive/Documenti/GitHub/private-blockchain-eth/node3/geth/chaindata cache=512.00MiB handles=524,288
+INFO [01-27|17:26:08.716] Opened ancient database                  database=/mnt/c/Users/alexc/OneDrive/Documenti/GitHub/private-blockchain-eth/node3/geth/chaindata/ancient/chain readonly=false
+INFO [01-27|17:26:08.721]  
+INFO [01-27|17:26:08.721] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [01-27|17:26:08.721] Chain ID:  1122 (unknown) 
+INFO [01-27|17:26:08.722] Consensus: Clique (proof-of-authority) 
+INFO [01-27|17:26:08.722]  
+INFO [01-27|17:26:08.723] Pre-Merge hard forks: 
+INFO [01-27|17:26:08.723]  - Homestead:                   0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [01-27|17:26:08.723]  - Tangerine Whistle (EIP 150): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [01-27|17:26:08.724]  - Spurious Dragon/1 (EIP 155): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [01-27|17:26:08.724]  - Spurious Dragon/2 (EIP 158): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [01-27|17:26:08.724]  - Byzantium:                   0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [01-27|17:26:08.725]  - Constantinople:              0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [01-27|17:26:08.725]  - Petersburg:                  0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [01-27|17:26:08.725]  - Istanbul:                    0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [01-27|17:26:08.726]  - Berlin:                      <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [01-27|17:26:08.726]  - London:                      <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [01-27|17:26:08.727]  
+INFO [01-27|17:26:08.727] The Merge is not yet available for this network! 
+INFO [01-27|17:26:08.727]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [01-27|17:26:08.728] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [01-27|17:26:08.728]  
+INFO [01-27|17:26:08.843] Initialising Ethereum protocol           network=1234 dbversion=<nil>
+INFO [01-27|17:26:08.845] Loaded most recent local header          number=0 hash=7489f2..104036 td=1 age=19m13s
+INFO [01-27|17:26:08.845] Loaded most recent local full block      number=0 hash=7489f2..104036 td=1 age=19m13s
+INFO [01-27|17:26:08.846] Loaded most recent local fast block      number=0 hash=7489f2..104036 td=1 age=19m13s
+WARN [01-27|17:26:08.846] Failed to load snapshot, regenerating    err="missing or corrupted snapshot"
+INFO [01-27|17:26:08.847] Rebuilding state snapshot 
+INFO [01-27|17:26:08.849] Resuming state snapshot generation       root=85288a..f97b77 accounts=0 slots=0 storage=0.00B dangling=0 elapsed=1.145ms
+INFO [01-27|17:26:08.858] Generated state snapshot                 accounts=259 slots=0 storage=9.71KiB dangling=0 elapsed=10.022ms
+INFO [01-27|17:26:08.859] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [01-27|17:26:08.860] Gasprice oracle is ignoring threshold set threshold=2
+WARN [01-27|17:26:08.860] Error reading unclean shutdown markers   error="leveldb: not found"
+INFO [01-27|17:26:08.861] Stored checkpoint snapshot to disk       number=0 hash=7489f2..104036
+WARN [01-27|17:26:08.862] Engine API enabled                       protocol=eth
+WARN [01-27|17:26:08.862] Engine API started but chain not configured for merge yet 
+INFO [01-27|17:26:08.862] Starting peer-to-peer node               instance=Geth/v1.10.26-stable-e5eb32ac/linux-amd64/go1.18.5
+INFO [01-27|17:26:08.915] New local node record                    seq=1,674,836,768,915 id=7f4873081d6d21e4 ip=127.0.0.1 udp=30312 tcp=30312
+INFO [01-27|17:26:08.916] Started P2P networking                   self=enode://a71ef057c1e1b47d6f67a447cb31f4a649a1d570d689c183043480a5d69b79b29bb00ae0eb740aef703f71d3135792999a9198c26fc21c5aba6b3407070a3c9a@127.0.0.1:30312
+WARN [01-27|17:26:08.917] IPC opening failed                       url=/node2/geth.ipc error="mkdir /node2: permission denied"
+Fatal: Error starting protocol stack: mkdir /node2: permission denied
+INFO [01-27|17:28:43.111] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [01-27|17:28:43.113] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+WARN [01-27|17:28:43.114] Option nousb is deprecated and USB is deactivated by default. Use --usb to enable 
+WARN [01-27|17:28:43.134] Found deprecated node list file /mnt/c/Users/alexc/OneDrive/Documenti/GitHub/private-blockchain-eth/node3/static-nodes.json, please use the TOML config file instead. 
+WARN [01-27|17:28:43.154] The generic --miner.gastarget flag is deprecated and will be removed in the future! 
+INFO [01-27|17:28:43.155] Set global gas cap                       cap=50,000,000
+WARN [01-27|17:28:43.157] Sanitizing invalid miner gas price       provided=0 updated=1,000,000,000
+INFO [01-27|17:28:43.157] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [01-27|17:28:43.159] Allocated cache and file handles         database=/mnt/c/Users/alexc/OneDrive/Documenti/GitHub/private-blockchain-eth/node3/geth/chaindata cache=512.00MiB handles=524,288
+INFO [01-27|17:28:43.309] Opened ancient database                  database=/mnt/c/Users/alexc/OneDrive/Documenti/GitHub/private-blockchain-eth/node3/geth/chaindata/ancient/chain readonly=false
+INFO [01-27|17:28:43.319]  
+INFO [01-27|17:28:43.319] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [01-27|17:28:43.320] Chain ID:  1122 (unknown) 
+INFO [01-27|17:28:43.320] Consensus: Clique (proof-of-authority) 
+INFO [01-27|17:28:43.320]  
+INFO [01-27|17:28:43.321] Pre-Merge hard forks: 
+INFO [01-27|17:28:43.321]  - Homestead:                   0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [01-27|17:28:43.322]  - Tangerine Whistle (EIP 150): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [01-27|17:28:43.322]  - Spurious Dragon/1 (EIP 155): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [01-27|17:28:43.323]  - Spurious Dragon/2 (EIP 158): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [01-27|17:28:43.323]  - Byzantium:                   0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [01-27|17:28:43.323]  - Constantinople:              0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [01-27|17:28:43.324]  - Petersburg:                  0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [01-27|17:28:43.324]  - Istanbul:                    0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [01-27|17:28:43.324]  - Berlin:                      <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [01-27|17:28:43.325]  - London:                      <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [01-27|17:28:43.325]  
+INFO [01-27|17:28:43.325] The Merge is not yet available for this network! 
+INFO [01-27|17:28:43.326]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [01-27|17:28:43.326] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [01-27|17:28:43.326]  
+INFO [01-27|17:28:43.476] Initialising Ethereum protocol           network=1234 dbversion=8
+INFO [01-27|17:28:43.477] Loaded most recent local header          number=0 hash=7489f2..104036 td=1 age=21m48s
+INFO [01-27|17:28:43.478] Loaded most recent local full block      number=0 hash=7489f2..104036 td=1 age=21m48s
+INFO [01-27|17:28:43.478] Loaded most recent local fast block      number=0 hash=7489f2..104036 td=1 age=21m48s
+WARN [01-27|17:28:43.479] Loaded snapshot journal                  diffs=missing
+INFO [01-27|17:28:43.482] Loaded local transaction journal         transactions=0 dropped=0
+INFO [01-27|17:28:43.493] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [01-27|17:28:43.493] Gasprice oracle is ignoring threshold set threshold=2
+WARN [01-27|17:28:43.494] Unclean shutdown detected                booted=2023-01-27T17:26:08+0100 age=2m35s
+WARN [01-27|17:28:43.495] Engine API enabled                       protocol=eth
+WARN [01-27|17:28:43.496] Engine API started but chain not configured for merge yet 
+INFO [01-27|17:28:43.497] Starting peer-to-peer node               instance=Geth/v1.10.26-stable-e5eb32ac/linux-amd64/go1.18.5
+INFO [01-27|17:28:43.598] New local node record                    seq=1,674,836,768,916 id=7f4873081d6d21e4 ip=127.0.0.1 udp=30312 tcp=30312
+WARN [01-27|17:28:43.600] IPC opening failed                       url=/node2/geth.ipc error="mkdir /node2: permission denied"
+INFO [01-27|17:28:43.601] Started P2P networking                   self=enode://a71ef057c1e1b47d6f67a447cb31f4a649a1d570d689c183043480a5d69b79b29bb00ae0eb740aef703f71d3135792999a9198c26fc21c5aba6b3407070a3c9a@127.0.0.1:30312
+Fatal: Error starting protocol stack: mkdir /node2: permission denied
+INFO [01-27|17:29:59.093] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [01-27|17:29:59.095] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+WARN [01-27|17:29:59.096] Option nousb is deprecated and USB is deactivated by default. Use --usb to enable 
+WARN [01-27|17:29:59.117] Found deprecated node list file /mnt/c/Users/alexc/OneDrive/Documenti/GitHub/private-blockchain-eth/node3/static-nodes.json, please use the TOML config file instead. 
+WARN [01-27|17:29:59.143] The generic --miner.gastarget flag is deprecated and will be removed in the future! 
+INFO [01-27|17:29:59.144] Set global gas cap                       cap=50,000,000
+WARN [01-27|17:29:59.147] Sanitizing invalid miner gas price       provided=0 updated=1,000,000,000
+INFO [01-27|17:29:59.148] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [01-27|17:29:59.150] Allocated cache and file handles         database=/mnt/c/Users/alexc/OneDrive/Documenti/GitHub/private-blockchain-eth/node3/geth/chaindata cache=512.00MiB handles=524,288
+INFO [01-27|17:29:59.340] Opened ancient database                  database=/mnt/c/Users/alexc/OneDrive/Documenti/GitHub/private-blockchain-eth/node3/geth/chaindata/ancient/chain readonly=false
+INFO [01-27|17:29:59.357]  
+INFO [01-27|17:29:59.357] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [01-27|17:29:59.358] Chain ID:  1122 (unknown) 
+INFO [01-27|17:29:59.358] Consensus: Clique (proof-of-authority) 
+INFO [01-27|17:29:59.359]  
+INFO [01-27|17:29:59.359] Pre-Merge hard forks: 
+INFO [01-27|17:29:59.360]  - Homestead:                   0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [01-27|17:29:59.360]  - Tangerine Whistle (EIP 150): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [01-27|17:29:59.361]  - Spurious Dragon/1 (EIP 155): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [01-27|17:29:59.361]  - Spurious Dragon/2 (EIP 158): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [01-27|17:29:59.362]  - Byzantium:                   0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [01-27|17:29:59.363]  - Constantinople:              0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [01-27|17:29:59.363]  - Petersburg:                  0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [01-27|17:29:59.364]  - Istanbul:                    0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [01-27|17:29:59.364]  - Berlin:                      <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [01-27|17:29:59.365]  - London:                      <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [01-27|17:29:59.366]  
+INFO [01-27|17:29:59.366] The Merge is not yet available for this network! 
+INFO [01-27|17:29:59.367]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [01-27|17:29:59.367] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [01-27|17:29:59.368]  
+INFO [01-27|17:29:59.574] Initialising Ethereum protocol           network=1234 dbversion=8
+INFO [01-27|17:29:59.575] Loaded most recent local header          number=0 hash=7489f2..104036 td=1 age=23m4s
+INFO [01-27|17:29:59.576] Loaded most recent local full block      number=0 hash=7489f2..104036 td=1 age=23m4s
+INFO [01-27|17:29:59.577] Loaded most recent local fast block      number=0 hash=7489f2..104036 td=1 age=23m4s
+WARN [01-27|17:29:59.577] Loaded snapshot journal                  diffs=missing
+INFO [01-27|17:29:59.581] Loaded local transaction journal         transactions=0 dropped=0
+INFO [01-27|17:29:59.597] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [01-27|17:29:59.598] Gasprice oracle is ignoring threshold set threshold=2
+WARN [01-27|17:29:59.599] Unclean shutdown detected                booted=2023-01-27T17:26:08+0100 age=3m51s
+WARN [01-27|17:29:59.599] Unclean shutdown detected                booted=2023-01-27T17:28:43+0100 age=1m16s
+WARN [01-27|17:29:59.600] Engine API enabled                       protocol=eth
+WARN [01-27|17:29:59.600] Engine API started but chain not configured for merge yet 
+INFO [01-27|17:29:59.601] Starting peer-to-peer node               instance=Geth/v1.10.26-stable-e5eb32ac/linux-amd64/go1.18.5
+INFO [01-27|17:29:59.714] New local node record                    seq=1,674,836,768,917 id=7f4873081d6d21e4 ip=127.0.0.1 udp=30312 tcp=30312
+INFO [01-27|17:29:59.715] Started P2P networking                   self=enode://a71ef057c1e1b47d6f67a447cb31f4a649a1d570d689c183043480a5d69b79b29bb00ae0eb740aef703f71d3135792999a9198c26fc21c5aba6b3407070a3c9a@127.0.0.1:30312
+WARN [01-27|17:29:59.718] IPC opening failed                       url=/node3/geth.ipc error="mkdir /node3: permission denied"
+Fatal: Error starting protocol stack: mkdir /node3: permission denied
+INFO [01-27|17:48:34.136] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [01-27|17:48:34.137] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+WARN [01-27|17:48:34.138] Option nousb is deprecated and USB is deactivated by default. Use --usb to enable 
+WARN [01-27|17:48:34.156] Found deprecated node list file /mnt/c/Users/alexc/OneDrive/Documenti/GitHub/private-blockchain-eth/node3/static-nodes.json, please use the TOML config file instead. 
+WARN [01-27|17:48:34.172] The generic --miner.gastarget flag is deprecated and will be removed in the future! 
+INFO [01-27|17:48:34.174] Set global gas cap                       cap=50,000,000
+WARN [01-27|17:48:34.175] Sanitizing invalid miner gas price       provided=0 updated=1,000,000,000
+INFO [01-27|17:48:34.176] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [01-27|17:48:34.177] Allocated cache and file handles         database=/mnt/c/Users/alexc/OneDrive/Documenti/GitHub/private-blockchain-eth/node3/geth/chaindata cache=512.00MiB handles=524,288
+INFO [01-27|17:48:34.336] Opened ancient database                  database=/mnt/c/Users/alexc/OneDrive/Documenti/GitHub/private-blockchain-eth/node3/geth/chaindata/ancient/chain readonly=false
+INFO [01-27|17:48:34.341]  
+INFO [01-27|17:48:34.341] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [01-27|17:48:34.342] Chain ID:  1122 (unknown) 
+INFO [01-27|17:48:34.342] Consensus: Clique (proof-of-authority) 
+INFO [01-27|17:48:34.342]  
+INFO [01-27|17:48:34.343] Pre-Merge hard forks: 
+INFO [01-27|17:48:34.343]  - Homestead:                   0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [01-27|17:48:34.343]  - Tangerine Whistle (EIP 150): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [01-27|17:48:34.344]  - Spurious Dragon/1 (EIP 155): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [01-27|17:48:34.344]  - Spurious Dragon/2 (EIP 158): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [01-27|17:48:34.344]  - Byzantium:                   0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [01-27|17:48:34.345]  - Constantinople:              0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [01-27|17:48:34.345]  - Petersburg:                  0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [01-27|17:48:34.345]  - Istanbul:                    0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [01-27|17:48:34.345]  - Berlin:                      <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [01-27|17:48:34.346]  - London:                      <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [01-27|17:48:34.346]  
+INFO [01-27|17:48:34.346] The Merge is not yet available for this network! 
+INFO [01-27|17:48:34.347]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [01-27|17:48:34.347] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [01-27|17:48:34.347]  
+INFO [01-27|17:48:34.485] Initialising Ethereum protocol           network=1234 dbversion=8
+INFO [01-27|17:48:34.486] Loaded most recent local header          number=0 hash=7489f2..104036 td=1 age=41m39s
+INFO [01-27|17:48:34.486] Loaded most recent local full block      number=0 hash=7489f2..104036 td=1 age=41m39s
+INFO [01-27|17:48:34.487] Loaded most recent local fast block      number=0 hash=7489f2..104036 td=1 age=41m39s
+WARN [01-27|17:48:34.488] Loaded snapshot journal                  diffs=missing
+INFO [01-27|17:48:34.490] Loaded local transaction journal         transactions=0 dropped=0
+INFO [01-27|17:48:34.500] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [01-27|17:48:34.501] Gasprice oracle is ignoring threshold set threshold=2
+WARN [01-27|17:48:34.502] Unclean shutdown detected                booted=2023-01-27T17:26:08+0100 age=22m26s
+WARN [01-27|17:48:34.502] Unclean shutdown detected                booted=2023-01-27T17:28:43+0100 age=19m51s
+WARN [01-27|17:48:34.503] Unclean shutdown detected                booted=2023-01-27T17:29:59+0100 age=18m35s
+WARN [01-27|17:48:34.503] Engine API enabled                       protocol=eth
+WARN [01-27|17:48:34.503] Engine API started but chain not configured for merge yet 
+INFO [01-27|17:48:34.504] Starting peer-to-peer node               instance=Geth/v1.10.26-stable-e5eb32ac/linux-amd64/go1.18.5
+INFO [01-27|17:48:34.584] New local node record                    seq=1,674,836,768,918 id=7f4873081d6d21e4 ip=127.0.0.1 udp=30312 tcp=30312
+INFO [01-27|17:48:34.585] Started P2P networking                   self=enode://a71ef057c1e1b47d6f67a447cb31f4a649a1d570d689c183043480a5d69b79b29bb00ae0eb740aef703f71d3135792999a9198c26fc21c5aba6b3407070a3c9a@127.0.0.1:30312
+WARN [01-27|17:48:34.586] IPC opening failed                       url=/node3/geth.ipc error="mkdir /node3: permission denied"
+Fatal: Error starting protocol stack: mkdir /node3: permission denied
